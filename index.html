@@ -1,0 +1,62 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      window.requestAnimFrame = (function() {
+        return (
+          window.requestAnimationFrame ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame ||
+          window.oRequestAnimationFrame ||
+          window.msRequestAnimationFrame ||
+          function(callback) {
+            window.setTimeout(callback);
+          }
+        );
+      });
+      
+      function init(elemid) {
+        let canvas = document.querySelector('#'+elemid),
+          c = canvas.getContext("2d"),
+          w = (canvas.width = window.innerWidth),
+          h = (canvas.height = window.innerHeight);
+        c.fillStyle = 'blue';
+        c.fillRect(0, 0, w, h);
+        return {c:c,canvas:canvas};
+      }
+      </script>
+    <title>Egioc2022_Hanc_Silviu</title>
+  </head>
+  <body>
+    <div style="position: absolute; z-index: 2;">
+      <p style="color: teal; font-size: 16; ">
+        Comands : <br>  
+        Camera movement - Mouse buttons <br>
+        In scene movement - <strong><i>W, A, S, D</i></strong>( keyboard ) <br>
+        Some interactive buttons : <br>
+        <strong><i>&emsp;[1-4]</i></strong> -> spawns a droid battalion <br>
+        <strong><i>&emsp;5</i></strong> ->  the droid army previously spawned plays a little animation <br>
+      </p>
+
+    </div>
+    <div class="progress-bar-container">
+      <label style= "color: red; font-size: 72; transform: translate(0%, -200%);"> 
+          Solar System 
+      </label>
+      <label for="progress-bar">Loading ...</label>
+      <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+    <canvas width=300 height=150 id="bg"></canvas>
+    <script type="module" src="./main.js">
+        //import * as THREE from './three.module.js';
+        //import { OrbitControls } from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/controls/OrbitControls.js';
+
+
+    </script>
+  </body>
+</html>

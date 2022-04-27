@@ -1,0 +1,22 @@
+{
+  "type": "module",
+
+  "typeAcquisition": {
+    "include": [
+      "https://threejsfundamentals.org/threejs/resources/threejs/r115/build/three.module.js",
+      "https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/controls/OrbitControls.js",
+      "https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/controls/TrackballControls.js",
+      "https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/controls/TrackballControls.js"
+    ]
+  },
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "es6"
+  },
+  "exclude": [
+    "assets/js/build",
+    "assets/js/build-min",
+    "assets/js/vendor",
+    "node_modules"
+  ]
+}
