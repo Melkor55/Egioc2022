@@ -1,0 +1,11 @@
+Model Information:
+* title:	B1 Battle Droid
+* source:	https://sketchfab.com/3d-models/b1-battle-droid-5e098a79422b476388f59b189c5bbd4e
+* author:	SmeagolGollum (https://sketchfab.com/SmeagolGollum)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "B1 Battle Droid" (https://sketchfab.com/3d-models/b1-battle-droid-5e098a79422b476388f59b189c5bbd4e) by SmeagolGollum (https://sketchfab.com/SmeagolGollum) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

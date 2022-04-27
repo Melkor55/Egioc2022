@@ -1,0 +1,11 @@
+Model Information:
+* title:	Thanos 4K Retextured
+* source:	https://sketchfab.com/3d-models/thanos-4k-retextured-33a76fa5ad654715acc2eef792f6832a
+* author:	JonnyMANSON (https://sketchfab.com/JonnyMANSON)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Thanos 4K Retextured" (https://sketchfab.com/3d-models/thanos-4k-retextured-33a76fa5ad654715acc2eef792f6832a) by JonnyMANSON (https://sketchfab.com/JonnyMANSON) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
